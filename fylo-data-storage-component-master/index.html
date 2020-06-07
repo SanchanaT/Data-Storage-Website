@@ -5,27 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+	
+	<section class="left">
+		<img id="logo" src="images/logo.svg" alt="logo">
+		<img class="icons" src="images/icon-folder.svg" alt="folder">
+		<img class="icons" src="images/icon-document.svg" alt="document">
+		<img class="icons" src="images/icon-upload.svg" alt="upload">	
+	</section>
 
-  You’ve used 815 GB of your storage
+	<section class="right">
+		
+		
 
-  185 GB Left
+		
+		<!-- <progress id="data" value="815" max="1000"> 185% </progress> -->
+		   <!-- <input type="range" min="0" max="100" id="slider" value="81.5" name="range">-->	
+		   <label for="data">
+			<p class="para"> You’ve used <span id="used">815 GB </span> of your storage</p>
+		</label>	   
+		   <progress id="slider" value="815" max="1000"> 815% </progress>
+		   <span id="indicator"> </span>
+
+		<section>
+		<p class="values">0 GB</p>
+		<p class="values end">1000 GB</p> 
+		</section>
+		<span class="popup">
+			<span>185 </span>
+			<span>GB LEFT</span> 
+			<span id="triangledown"></span>
+		</span>
+
+
+	</section>
+
+
+ 
+
   
-  0 GB
-  1000 GB
   
-  <div class="attribution">
+ 
+  
+   	<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Sanchana Sutharshini</a>.
   </div>
+  
+		
 </body>
 </html>
