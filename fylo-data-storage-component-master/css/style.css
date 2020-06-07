@@ -2,6 +2,8 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    resize: none;
+    
 }
 
 	@font-face {
@@ -23,8 +25,8 @@
 }
 html,body{
 	background-color: hsl(229, 57%, 11%); 
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	overflow: hidden;
 	font-family: Raleway;
 	font-weight: 200;
@@ -41,6 +43,11 @@ body{
 	
 	
 }
+.flexboxc{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
 
 .left{
 	background-color: hsl(228, 56%, 26%);
@@ -50,9 +57,10 @@ body{
 	height: 200px;
 	border-radius: 10px 75px 10px 10px;
 	position: relative;
-	top: 20%;
+	top: 25%;
 	left: 18%;
-	margin: 2px;
+	
+margin: 2px;
 
 }
 
@@ -64,8 +72,8 @@ body{
 	height: 160px;
 	border-radius: 10px 10px 10px 10px;
 	position: relative;
-	top: 25.4%;
-	right: 15%;
+	top: 31%;
+	right: -20%;
 	margin: 2px;
 
 }
@@ -209,3 +217,4 @@ progress::-webkit-progress-value {
        
 
     }
+
