@@ -46,7 +46,7 @@ body{
 	background-color: hsl(228, 56%, 26%);
 	display: inline;
 	float: left;
-	width: 400px;
+	min-width: 400px;
 	height: 200px;
 	border-radius: 10px 75px 10px 10px;
 	position: relative;
@@ -61,7 +61,7 @@ body{
 ;
 	display: inline;
 	float: right;
-	width: 600px;
+	min-width: 600px;
 	height: 160px;
 	border-radius: 10px 10px 10px 10px;
 	position: relative;
