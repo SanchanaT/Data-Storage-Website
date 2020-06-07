@@ -50,22 +50,21 @@ body{
 	height: 200px;
 	border-radius: 10px 75px 10px 10px;
 	position: relative;
-	top: 25%;
+	top: 20%;
 	left: 18%;
 	margin: 2px;
 
 }
 
 .right{
-	background-color: hsl(228, 56%, 26%)
-;
+	background-color: hsl(228, 56%, 26%);
 	display: inline;
 	float: right;
 	min-width: 600px;
 	height: 160px;
 	border-radius: 10px 10px 10px 10px;
 	position: relative;
-	top: 30.4%;
+	top: 25.4%;
 	right: 15%;
 	margin: 2px;
 
